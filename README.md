@@ -99,6 +99,6 @@ The organization wants to understand:
 
 ## Project Information
 
-**Domain:** Corporate Finance / FP&A Analytics
-**Tool:** Google Sheets
-**Dataset Size:** 6,780 Records
+- **Domain:** Corporate Finance / FP&A Analytics
+- **Tool:** Google Sheets
+- **Dataset Size:** 6,780 Records
