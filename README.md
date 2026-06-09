@@ -4,8 +4,10 @@
 
 Built an institutional-grade, multi-sheet Financial Planning & Analysis (FP&A) model and full-page interactive executive dashboard. The goal was to transmute disparate organizational transaction records into a dynamic reporting system that monitors variance control, identifies fixed vs. variable cost structures, tracks capital intensity, and projects rolling liquidity runways to support corporate strategic decision-making.
 
-**Dataset:** Simulated Corporate Budgeting & Expense Data  
-**Scope:** Multi-departmental fiscal tracking ($1.2B+ scale)
+**Dataset:** Financial Budget Optimization Dataset  
+**Source:** [Kaggle - Financial Budget Optimization Dataset](https://www.kaggle.com/datasets/colabsss/financial-budget-optimization-dataset)  
+**Dataset Size:** 6,780 Operational Rows  
+**Domain Context:** Corporate Financial Planning & Performance Tracking
 
 ---
 
@@ -19,24 +21,12 @@ The corporate finance team and senior leadership needed to solve critical busine
 
 ---
 
-## KPI Summary
-
-| KPI | Value | Metric Significance |
-| :--- | ---: | :--- |
-| **Annual Revenue Inflow** | $1.20B | High-velocity top-line generation |
-| **Annual Budget Outflow** | $978.88M | Day-to-day capital utilization control |
-| **Net Operational Cash Flow** | $223.14M | Total cumulative working capital reserve |
-| **Average Quarterly Cash Burn** | $55.78M | Steady net liquidity added per quarter |
-| **Target CAPEX Intensity** | 50.00% | Equal split between survival (OPEX) & growth (CAPEX) |
-
----
-
 ## Tools & Advanced Techniques Used
 
 - **Google Sheets Architecture** (Separation of Raw Data Layer, Calculation Engines, and UI Layer)
 - **Boolean Multi-Condition Arrays** (Simulating advanced logic via additive `=SUMIFS()`)
 - **Matrix Lookups & Dynamic Drilldowns** (Interactive data validation drop-downs linked with `=VLOOKUP()`)
-- **Linear Regression Forecasting** (Automated `=TREND()` / `=FORECAST()` baseline modeling)
+- **Linear Regression Forecasting** (Automated `=TREND()` baseline modeling)
 - **Inline Micro-Visualizations** (Space-conscious trend mapping via `=SPARKLINE()`)
 - **Custom UI System Design** (Gridline suppression, bespoke number formats, typographic hierarchies)
 
@@ -78,6 +68,5 @@ The corporate finance team and senior leadership needed to solve critical busine
  ┃ ┣ 📜 Variance_Control_Matrix.png
  ┃ ┣ 📜 Expense_Forecast_Trends.png
  ┃ ┗ 📜 Cost_Behavior_Breakeven.png
- ┣ 📜 Financial_Model_Workspace.xlsx  <-- Compiled Production Spreadsheet Model
- ┣ 📜 Financial_Budgeting_Dataset.csv <-- Original Compressed Input Data Dump
+ ┣ 📜 Financial_Budgeting_Dataset.xlsx  <-- Compiled Production Spreadsheet Model
  ┗ 📜 README.md                       <-- Portfolio Documentation (This File)
